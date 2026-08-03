@@ -1,0 +1,225 @@
+﻿<html>
+<head>
+<title>Thums Up</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#111;
+color:white;
+}
+
+.hero{
+height:70vh;
+background:url("thumaup banner.jpg") center/cover;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.hero h1{
+font-size:60px;
+}
+
+.hero p{
+font-size:20px;
+}
+
+.products{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:30px;
+padding:50px;
+}
+
+.card{
+width:250px;
+background:#222;
+border-radius:15px;
+overflow:hidden;
+text-align:center;
+transition:.4s;
+box-shadow:0 0 15px rgba(255,255,255,.2);
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card img{
+width:180px;
+height:220px;
+object-fit:contain;
+margin-top:20px;
+}
+
+.card h3{
+color:#ff0000;
+}
+
+.price{
+font-size:22px;
+color:#ffd700;
+}
+
+button{
+background:#ff0000;
+color:white;
+padding:10px 20px;
+border:none;
+border-radius:30px;
+margin-bottom:20px;
+cursor:pointer;
+}
+
+.about{
+padding:60px;
+text-align:center;
+line-height:30px;
+}
+
+.gallery{
+display:flex;
+gap:20px;
+justify-content:center;
+flex-wrap:wrap;
+padding:40px;
+}
+
+.gallery img{
+width:250px;
+border-radius:10px;
+transition:.4s;
+}
+
+.gallery img:hover{
+transform:scale(1.08);
+}
+
+footer{
+background:#000;
+padding:20px;
+text-align:center;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<section class="hero">
+
+<div>
+
+<h1>Thums Up</h1>
+
+<p>Taste the Thunder.</p>
+
+</div>
+
+</section>
+
+<section class="about">
+
+<h2>About Thums Up</h2>
+
+<p>
+Thums Up is one of India's most popular cola drinks. Known for its strong taste and bold flavor, it has been 
+refreshing people for decades. Available in cans, PET bottles, and glass bottles.
+</p>
+
+</section>
+
+<section class="products">
+
+<div class="card">
+
+<img src="thumsup can.jpg">
+
+<h3>Thums Up Can</h3>
+
+<p>300 ml</p>
+
+<p class="price">₹40</p>
+
+<button>Buy Now</button>
+
+</div>
+
+<div class="card">
+
+<img src="thumsup bottle.jpg">
+
+<h3>PET Bottle</h3>
+
+<p>500 ml</p>
+
+<p class="price">₹45</p>
+
+<button>Buy Now</button>
+
+</div>
+
+<div class="card">
+
+<img src="thumsup glass.jpg">
+
+<h3>Glass Bottle</h3>
+
+<p>250 ml</p>
+
+<p class="price">₹25</p>
+
+<button>Buy Now</button>
+
+</div>
+
+<div class="card">
+
+<img src="thumsup 1l.jpg">
+
+<h3>1 Litre Bottle</h3>
+
+<p>1 L</p>
+
+<p class="price">₹75</p>
+
+<button>Buy Now</button>
+
+</div>
+
+<div class="card">
+
+<img src="thumsup 2l.jpg">
+
+<h3>2 Litre Bottle</h3>
+
+<p>2 L</p>
+
+<p class="price">₹110</p>
+
+<button>Buy Now</button>
+
+</div>
+
+</section>
+
+<footer>
+
+<h2>Enjoy Thums Up Responsibly</h2>
+
+<h3>Thums Up is famous for its strong cola taste and bold personality. Enjoy it chilled with your favorite meals and celebrations.</h3>
+
+<p>© 2026 Thums Up Inspired Website</p>
+
+</footer>
+
+</body>
+</html>
